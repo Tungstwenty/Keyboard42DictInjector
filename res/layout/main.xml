@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical" >
+    <TextView
+        android:id="@+id/textView_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="This allows using an add-on dictionary (and swipe support) on the Android 4.2 Keyboard." />
+    <TextView
+        android:id="@+id/textView_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView_1"
+        android:paddingBottom="16dp"
+        android:text="It is provided with only a few bundled-in dictionaries and this mod replaces one of those (pt_BR) with another one you can configure." />
+    <TextView
+        android:id="@+id/lblDictionary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView_2"
+        android:text="Dictionary: " />
+    <TextView
+        android:id="@+id/txtLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lblDictionary"
+        android:layout_alignTop="@id/lblDictionary"
+        android:text=""
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnSetLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/lblDictionary"
+        android:text="Change" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnSetLanguage"
+        android:paddingTop="16dp"
+        android:text="Note: This appliction is an Xposed mod that should be enabled in its framework manager to produce effects!"
+        android:textColor="@android:color/holo_red_dark" />
+</RelativeLayout>

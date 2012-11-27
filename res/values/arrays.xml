@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dict_languages">
+        <item>Bulgarian (bg)</item>
+        <item>Czech (cs)</item>
+        <item>Danish (da)</item>
+        <item>Greek (el)</item>
+        <item>Finnish (fi)</item>
+        <item>Croatian (hr)</item>
+        <item>Hungarian (hu)</item>
+        <item>Hebrew (iw)</item>
+        <item>Georgian (ka)</item>
+        <item>Norwegian Bokmål (nb)</item>
+        <item>Dutch (nl)</item>
+        <item>Portuguese (pt_PT)</item>
+        <item>Russian (ru)</item>
+        <item>Swedish (sv)</item>
+    </string-array>
+</resources>
