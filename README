@@ -1,0 +1,12 @@
+Keyboard 4.2 Dictionary Injector
+by Tungstwenty
+
+
+An Android application that uses the Xposed framework to modify the 4.2 AOSP Keyboard
+to support more languages than the originally bundled ones.
+
+
+This project uses:
+- Xposed framework, by rovo89
+- Dictionary resources, from the CyanogenMod project
+
