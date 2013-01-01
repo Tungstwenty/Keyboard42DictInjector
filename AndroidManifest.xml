@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="tungstwenty.xposed.keyboard42dicts"
-    android:versionCode="1"
-    android:versionName="1.0.0" xmlns:tools="http://schemas.android.com/tools">
+    android:versionCode="2"
+    android:versionName="1.0.1" xmlns:tools="http://schemas.android.com/tools">
 
     <uses-sdk android:minSdkVersion="15" tools:ignore="UsesMinSdkAttributes"/>
 
@@ -21,8 +21,11 @@
             android:name="xposedmodule"
             android:value="true" />
         <meta-data
+            android:name="xposeddescription"
+            android:value="Enables additional dictionaries on the stock 4.2 keyboard" />
+        <meta-data
             android:name="xposedminversion"
-            android:value="2.0rc2.*" />
+            android:value="2.0*" />
     </application>
 
 </manifest>
